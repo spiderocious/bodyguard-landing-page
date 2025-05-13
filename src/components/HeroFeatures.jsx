@@ -120,7 +120,7 @@ const HeroAndFeatures = () => {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900" id="features">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900" id="clients">
         <div className="container mx-auto">
           <motion.div 
             className="text-center mb-16"
