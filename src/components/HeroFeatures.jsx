@@ -91,7 +91,7 @@ const HeroAndFeatures = () => {
                 <img
                   src="/app.png"
                   alt="Mobile app screenshot"
-                  className="w-auto h-full rounded-xl shadow-2xl relative z-10"
+                  className="w-auto h-full mb-24 rounded-xl shadow-2xl relative z-10"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2A9D8F]/20 to-[#264653]/20 rounded-xl blur-3xl" />
               </div>
@@ -105,7 +105,7 @@ const HeroAndFeatures = () => {
                   <div className="w-12 h-12 rounded-full bg-[#2A9D8F]/20 flex items-center justify-center">
                     <Shield className="w-6 h-6 text-[#2A9D8F]" />
                   </div>
-                  <div>
+                  <div className="mr-3">
                     <div className="font-medium text-white">
                       Verified Guards
                     </div>
@@ -135,7 +135,7 @@ const HeroAndFeatures = () => {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">@@ .. @@
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature 1 */}
             <motion.div 
               className="group bg-white/5 p-8 rounded-xl border border-white/10 hover:border-[#2A9D8F]/50 

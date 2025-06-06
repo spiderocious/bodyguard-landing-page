@@ -22,7 +22,11 @@ const Header = () => {
 
   return (
     <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/80 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      isMenuOpen
+        ? 'bg-white'
+        : isScrolled
+        ? 'bg-white/80 backdrop-blur-md shadow-lg'
+        : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -65,7 +69,7 @@ const Header = () => {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`inline-flex items-center justify-center p-2 rounded-md transition-colors duration-200
-                ${isScrolled ? 'text-gray-600' : 'text-white'} hover:text-[#2A9D8F] focus:outline-none`}
+                ${isScrolled ? 'text-gray-600' : 'text-gray-300'} hover:text-[#2A9D8F] focus:outline-none`}
             >
               {isMenuOpen ? (
                 <X className="h-6 w-6" />
