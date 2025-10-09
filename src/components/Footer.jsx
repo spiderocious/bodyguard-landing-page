@@ -135,14 +135,14 @@ const Footer = () => {
               © {currentYear} LuxeLite. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="hover:text-[#2A9D8F] transition-colors duration-200">
+              <a href="/privacy" className="hover:text-[#2A9D8F] transition-colors duration-200">
                 Privacy Policy
               </a>
               <a href="#" className="hover:text-[#2A9D8F] transition-colors duration-200">
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-[#2A9D8F] transition-colors duration-200">
-                Cookie Policy
+              <a href="/delete-data" className="hover:text-[#2A9D8F] transition-colors duration-200">
+                Delete My Data
               </a>
             </div>
           </div>

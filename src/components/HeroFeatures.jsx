@@ -269,6 +269,20 @@ const HeroAndFeatures = () => {
             </motion.div>
           </div>
         </div>
+          <motion.div 
+            className="mt-16 text-center"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.8 }}
+          >
+            <a className="group w-fit bg-white text-gray-900 px-8 py-4 rounded-xl font-medium 
+              hover:bg-[#2A9D8F] hover:text-white transition-all duration-300 
+              flex items-center gap-3 mx-auto shadow-xl shadow-white/10 hover:shadow-[#2A9D8F]/20" href="https://app.luxeliteafrica.com/auth/login" target="_blank">
+              Book a Bodyguard now
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            </a>
+          </motion.div>
       </section>
     </>
   );
