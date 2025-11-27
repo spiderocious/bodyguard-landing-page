@@ -7,9 +7,10 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300">
       {/* Main Footer */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"> */}
+            <div className="flex flex-col justify-start md:flex-row md:justify-between gap-8">
           {/* Company Info */}
-          <div className="space-y-4">
+          <div className="space-y-4 w-1/4">
             <h3 className="text-2xl font-bold text-white mb-4">LuxElite</h3>
             <p className="text-gray-400">
               Professional security services at your fingertips. Book verified bodyguards 
@@ -28,8 +29,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
+          {/* Quick Links
+          <div className='hidden'>
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
@@ -60,8 +61,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* For Bodyguards */}
-          <div>
+          <div className='hidden'>
             <h4 className="text-white font-semibold mb-4">For Bodyguards</h4>
             <ul className="space-y-2">
               <li>
@@ -90,7 +90,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>

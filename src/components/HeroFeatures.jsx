@@ -25,15 +25,15 @@ const HeroAndFeatures = () => {
                 transition={{ delay: 0.2 }}
                 className="inline-block px-4 py-1.5 mb-6 rounded-full bg-white/10 backdrop-blur-sm border border-white/20"
               >
-                <span className="text-sm font-medium">Trusted by 10,000+ clients</span>
+                <span className="text-sm font-medium">Security booking platform</span>
               </motion.div>
-              <motion.h1 
+              <motion.h1
                 className="text-5xl sm:text-7xl font-bold mb-6 leading-tight"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                Elite Security
+                Professional Security
                 <br />
                 <span className="text-[#2A9D8F]">At Your Command</span>
               </motion.h1>
@@ -62,23 +62,6 @@ const HeroAndFeatures = () => {
                   hover:bg-white/10 transition-all duration-300 backdrop-blur-sm">
                   Learn More
                 </button> */}
-              </motion.div>
-              <motion.div 
-                className="mt-12 grid grid-cols-3 gap-8"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1 }}
-              >
-                {[
-                  { number: "500+", label: "Elite Guards" },
-                  { number: "10k+", label: "Clients Protected" },
-                  { number: "4.9/5", label: "Client Rating" }
-                ].map((stat, index) => (
-                  <div key={index} className="text-center p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
-                    <div className="text-2xl font-bold">{stat.number}</div>
-                    <div className="text-sm text-gray-300">{stat.label}</div>
-                  </div>
-                ))}
               </motion.div>
             </motion.div>
             <motion.div 

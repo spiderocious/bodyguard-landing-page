@@ -16,8 +16,8 @@ const BodyguardsAndFAQ = () => {
       answer: "To join as a bodyguard, you must: Be at least 18 years old, have valid security certification, pass our background check and complete our platform verification proces."
     },
     {
-      question: "What happens in case of emergency?",
-      answer: "Our app features a 24/7 emergency response system. In case of any security concerns, you can instantly alert our command center through the app's panic button. We maintain direct lines with local law enforcement for rapid response."
+      question: "How does payment work?",
+      answer: "All payments are processed securely through the app. Clients pay when booking, and bodyguards receive payment after completing their assignments according to the agreed terms."
     },
     {
       question: "Can I choose my working hours?",
@@ -46,7 +46,7 @@ const BodyguardsAndFAQ = () => {
               <span className="text-sm font-medium text-white">Become a bodyguard</span>
             </motion.div>
             <h2 className="text-4xl font-bold text-white mb-4">
-              Join Our Elite Security Guards
+              Join Our Professional Security Team
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               Turn your security expertise into a profitable career. Set your own hours, 
@@ -106,7 +106,7 @@ const BodyguardsAndFAQ = () => {
                   className="rounded-xl shadow-2xl w-full h-[1/2] relative z-10"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#2A9D8F]/20 to-[#264653]/20 rounded-xl blur-3xl" />
-                <motion.div 
+                <motion.div
                   className="absolute -bottom-6 -right-6 bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/20"
                   drag
                   dragConstraints={constraintsRef}
@@ -118,8 +118,8 @@ const BodyguardsAndFAQ = () => {
                       <Briefcase className="w-6 h-6 text-[#2A9D8F]" />
                     </div>
                     <div>
-                      <div className="font-medium text-white">80% Commission</div>
-                      <div className="text-sm text-gray-300">Keep more of your earnings</div>
+                      <div className="font-medium text-white">Flexible Work</div>
+                      <div className="text-sm text-gray-300">Set your own schedule</div>
                     </div>
                   </div>
                 </motion.div>
