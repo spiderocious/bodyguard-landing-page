@@ -72,7 +72,7 @@ const HeroAndFeatures = () => {
             >
               <div className="aspect-square rounded-3xl flex items-center justify-center relative">
                 <img
-                  src="/app.png"
+                  src="/new-app.jpg"
                   alt="Mobile app screenshot"
                   className="w-auto h-full mb-24 rounded-xl shadow-2xl relative z-10"
                 />
